@@ -1,0 +1,1 @@
+This repository contains the codes for the work [Power-law memory governs bacterial adaptation and learning in fluctuating environments](https://www.biorxiv.org/content/10.1101/2025.04.26.650739v1). Each figure can be recreated using the corresponding Jupyter Notebook.
