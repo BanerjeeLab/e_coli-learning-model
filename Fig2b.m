@@ -1,5 +1,6 @@
 % Goal: simulate memoryless model and compare to data to show it cannot
 % explain observed growth control
+% Note: uses fde_pi12_pc.m func from Garrappa 2017
 
 
 close all
@@ -58,8 +59,8 @@ alpha = [1; 1] ;
 [t, y] = fde_pi12_pc(alpha, f_fun, t0, T, y0, h); % for simulating MOS
 
 
-% import experimental data
-data_up = readtable('upshift.csv') ;
+% import experimental data from Nguyen 2021
+data_up = readtable('upshift_nguyen.csv') ;
 time_up = data_up.Var1/60+1 ;
 kappa_up = data_up.Var2*log(2) ;
 

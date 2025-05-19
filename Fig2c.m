@@ -1,4 +1,6 @@
-% Goal: simulate constant order model to show growth control properties
+% Goal: simulate constant order model to show growth control properties for
+% different values of memory strength
+% Note: uses fde_pi12_pc.m func from Garrappa 2017
 
 
 close all
